@@ -1,40 +1,43 @@
-.o-container {
+//all container are always centered
+// all container add a padding from md down so there is some space to breath on smaller devices
+
+.o-container, %o-container {
   @include containerLockWidth($lg-width);
 }
-.o-container-inner {
+.o-container-inner, %o-container-inner {
   @include containerLockWidth($md-width);
 }
-o.container-char {
+.o-container-char, %o-container-char {
   @include containerLockWidth(80ch);
 }
-.o-container-fluid {
+.o-container-fluid, %o-container-fluid {
   width: 100%;
   position: relative;
 }
 
 
 @include xs__up {
-  .o-container-lock-xs__up {
+  .o-container-lock-xs__up, %o-container-lock-xs__up {
     @include containerLockWidth($xs-width);
   }
 }
 @include sm__up {
-  .o-container-lock-sm__up {
+  .o-container-lock-sm__up, %o-container-lock-sm__up {
     @include containerLockWidth($sm-width);
   }
 }
 @include md__up {
-  .o-container-lock-md__up {
+  .o-container-lock-md__up, %o-container-lock-md__up {
     @include containerLockWidth($md-width);
   }
 }
 @include lg__up {
-  .o-container-lock-lg__up {
+  .o-container-lock-lg__up, %o-container-lock-lg__up {
     @include containerLockWidth($lg-width);
   }
 }
 @include xl__up {
-  .o-container-lock-xl__up {
+  .o-container-lock-xl__up, %o-container-lock-xl__up {
     @include containerLockWidth($xl-width);
   }
 }
