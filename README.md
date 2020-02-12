@@ -1,4 +1,4 @@
-# Skelett MContainer
+# Skelett Container
 A barebones (German: Skelett) media query library without any styling.
 
 See other Skelett tools [skelett-flexbox-grid](https://github.com/kaspar-allenbach/skelett-flexbox-grid) and [sekelett-media-queries](https://github.com/kaspar-allenbach/skelett-media-queries).
