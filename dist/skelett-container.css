@@ -1,0 +1,104 @@
+@media (min-width: 320px) {
+  .hidden-xs__up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .hidden-sm__up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 786px) {
+  .hidden-md__up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-lg__up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-xl__up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .hidden-xs__down {
+    display: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hidden-sm__down {
+    display: none !important;
+  }
+}
+
+@media (max-width: 786px) {
+  .hidden-md__down {
+    display: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .hidden-lg__down {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hidden-xl__down {
+    display: none !important;
+  }
+}
+
+.o-container-default {
+  max-width: 576px;
+  margin: 0 20px;
+}
+
+.o-container-fluid {
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .o-container-lock-xs__up {
+    max-width: 320px;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .o-container-lock-sm__up {
+    max-width: 576px;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 786px) {
+  .o-container-lock-md__up {
+    max-width: 786px;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .o-container-lock-lg__up {
+    max-width: 992px;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .o-container-lock-xl__up {
+    max-width: 1200px;
+    margin: 0 20px;
+  }
+}
+/*# sourceMappingURL=skelett-container.css.map */

@@ -1,0 +1,30 @@
+{
+  "name": "skelett-container",
+  "version": "0.0.1",
+  "description": "Barebone container classes to wrapp around things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Kaspar-Allenbach@github.com/kaspar-allenbach/skelett-container.git"
+  },
+  "keywords": [
+    "skelett",
+    "scss",
+    "container",
+    "wrapper",
+    "framework",
+    "barebone"
+  ],
+  "author": "Kaspar Allenbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspar-allenbach/skelett-container/issues"
+  },
+  "homepage": "https://github.com/kaspar-allenbach/skelett-container#readme",
+  "dependencies": {
+    "skelett-media-queries": "git+https://github.com/kaspar-allenbach/skelett-media-queries.git"
+  }
+}

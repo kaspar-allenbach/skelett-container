@@ -1,0 +1,6 @@
+$container-sidlines: 20px;
+
+@mixin containerLockWidth($queryParam) {
+  max-width: #{$queryParam};
+  margin: 0 $container-sidlines;
+}

@@ -1,0 +1,35 @@
+.o-container-default {
+  @include containerLockWidth($sm-width);
+}
+.o-container-inner {
+}
+.o-container-fluid {
+  width: 100%;
+}
+
+
+@include xs__up {
+  .o-container-lock-xs__up {
+    @include containerLockWidth($xs-width);
+  }
+}
+@include sm__up {
+  .o-container-lock-sm__up {
+    @include containerLockWidth($sm-width);
+  }
+}
+@include md__up {
+  .o-container-lock-md__up {
+    @include containerLockWidth($md-width);
+  }
+}
+@include lg__up {
+  .o-container-lock-lg__up {
+    @include containerLockWidth($lg-width);
+  }
+}
+@include xl__up {
+  .o-container-lock-xl__up {
+    @include containerLockWidth($xl-width);
+  }
+}
