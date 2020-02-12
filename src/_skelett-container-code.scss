@@ -1,10 +1,15 @@
-.o-container-default {
-  @include containerLockWidth($sm-width);
+.o-container {
+  @include containerLockWidth($lg-width);
 }
 .o-container-inner {
+  @include containerLockWidth($md-width);
+}
+o.container-char {
+  @include containerLockWidth(80ch);
 }
 .o-container-fluid {
   width: 100%;
+  position: relative;
 }
 
 

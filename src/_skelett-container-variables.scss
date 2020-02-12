@@ -2,5 +2,9 @@ $container-sidlines: 20px;
 
 @mixin containerLockWidth($queryParam) {
   max-width: #{$queryParam};
-  margin: 0 $container-sidlines;
+  position: relative;
+  outline: solid 1px red;
+  @include md__down {
+    padding: 0 $container-sidlines;
+  }
 }

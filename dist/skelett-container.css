@@ -58,47 +58,114 @@
   }
 }
 
-.o-container-default {
-  max-width: 576px;
-  margin: 0 20px;
+.o-container {
+  max-width: 992px;
+  position: relative;
+  outline: solid 1px red;
+}
+
+@media (max-width: 786px) {
+  .o-container {
+    padding: 0 20px;
+  }
+}
+
+.o-container-inner {
+  max-width: 786px;
+  position: relative;
+  outline: solid 1px red;
+}
+
+@media (max-width: 786px) {
+  .o-container-inner {
+    padding: 0 20px;
+  }
+}
+
+o.container-char {
+  max-width: 80ch;
+  position: relative;
+  outline: solid 1px red;
+}
+
+@media (max-width: 786px) {
+  o.container-char {
+    padding: 0 20px;
+  }
 }
 
 .o-container-fluid {
   width: 100%;
+  position: relative;
 }
 
 @media (min-width: 320px) {
   .o-container-lock-xs__up {
     max-width: 320px;
-    margin: 0 20px;
+    position: relative;
+    outline: solid 1px red;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 786px) {
+  .o-container-lock-xs__up {
+    padding: 0 20px;
   }
 }
 
 @media (min-width: 576px) {
   .o-container-lock-sm__up {
     max-width: 576px;
-    margin: 0 20px;
+    position: relative;
+    outline: solid 1px red;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 786px) {
+  .o-container-lock-sm__up {
+    padding: 0 20px;
   }
 }
 
 @media (min-width: 786px) {
   .o-container-lock-md__up {
     max-width: 786px;
-    margin: 0 20px;
+    position: relative;
+    outline: solid 1px red;
+  }
+}
+
+@media (min-width: 786px) and (max-width: 786px) {
+  .o-container-lock-md__up {
+    padding: 0 20px;
   }
 }
 
 @media (min-width: 992px) {
   .o-container-lock-lg__up {
     max-width: 992px;
-    margin: 0 20px;
+    position: relative;
+    outline: solid 1px red;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 786px) {
+  .o-container-lock-lg__up {
+    padding: 0 20px;
   }
 }
 
 @media (min-width: 1200px) {
   .o-container-lock-xl__up {
     max-width: 1200px;
-    margin: 0 20px;
+    position: relative;
+    outline: solid 1px red;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 786px) {
+  .o-container-lock-xl__up {
+    padding: 0 20px;
   }
 }
 /*# sourceMappingURL=skelett-container.css.map */
