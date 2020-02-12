@@ -1,5 +1,5 @@
 # Skelett Container
-A barebones (German: Skelett) media query library without any styling.
+Barebones (German: Skelett) container classes to center your stuff and contain it on a certain width.
 
 See other Skelett tools [skelett-flexbox-grid](https://github.com/kaspar-allenbach/skelett-flexbox-grid) and [sekelett-media-queries](https://github.com/kaspar-allenbach/skelett-media-queries).
 
